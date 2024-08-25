@@ -8,6 +8,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .head1 {
     font-size: 26px;
     color: rgb(255, 255, 255);
@@ -15,7 +19,7 @@
 }
 
 .nav {
-    background-color: #9e9b9b;
+    background-color: #bebcbc;
     padding: 20px 5px;
     position: fixed;
     display: flex;
@@ -23,6 +27,12 @@
     z-index: 2;
     width: 100%;
 }
+
+.chngecolor {
+    background-color: #4a4a4c;
+    transition: .4s all linear;
+}
+
 
 ul {
     display: none;
@@ -478,9 +488,6 @@ footer {
     width: 200px;
 }
 
-.QuickLinks ul {
-    margin-left: 40px;
-}
 
 .amankumar {
     width: 300px;
@@ -553,6 +560,11 @@ footer {
         display: none;
     }
 
+    .QuickLinks ul {
+        margin-left: 40px;
+        flex-wrap: wrap;
+    }
+
     nav ul {
         display: flex;
     }
@@ -608,7 +620,7 @@ footer {
         width: 100%;
     }
 
-    form{
+    form {
         margin-top: 0;
     }
 
@@ -616,25 +628,21 @@ footer {
         flex-direction: row;
     }
 
-    footer{
-        height: 250px;
+    footer {
+        height: 360px;
     }
 
-    footer>p {
-        margin-top: 40px;
-    }
-
-    .footer-ul{
+    .footer-ul {
         flex-direction: row;
     }
-    
-.list2 {
-    color: rgb(255, 255, 255);
-}
 
-.list3 {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+    .list2 {
+        color: rgb(255, 255, 255);
+    }
+
+    .list3 {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
 }
